@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddRecord">
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_fName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_fName_txt"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/et_fName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/et_fName_hint"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_lName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_lName_txt"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/et_lName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/et_lName_hint"
+        android:inputType="textPersonName" />
+
+    <Switch
+        android:id="@+id/swt_insur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/swt_insur_txt"
+        android:textOff="@string/swt_insur_no_txt"
+        android:textOn="@string/swt_insur_yes_txt"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_add_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0"
+            android:text="@string/btn_add_done_txt" />
+
+        <Button
+            android:id="@+id/btn_add_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/btn_add_cancel_txt" />
+    </LinearLayout>
+
+</LinearLayout>

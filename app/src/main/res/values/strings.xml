@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Database1</string>
+    <string name="btn_add_txt">Add Record</string>
+    <string name="btn_read_txt">Read Record</string>
+    <string name="btn_update_txt">Update Record</string>
+    <string name="btn_delete_txt">Delete Record</string>
+    <string name="swt_insur_yes_txt">Has Insurance</string>
+    <string name="swt_insur_no_txt">Does not have Insurance</string>
+    <string name="tv_insur_txt">Has Insurance?</string>
+    <string name="tv_fName_txt">First Name</string>
+    <string name="tv_lName_txt">Last Name</string>
+    <string name="et_fName_hint">First name</string>
+    <string name="et_lName_hint">Last name</string>
+    <string name="btn_add_done_txt">Save Record</string>
+    <string name="swt_insur_txt">Insurance Status</string>
+    <string name="btn_add_cancel_txt">Cancel</string>
+</resources>
